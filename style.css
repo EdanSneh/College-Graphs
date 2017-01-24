@@ -33,3 +33,7 @@ li {
 	height: width;
 	background:white;
 }
+
+.dropdown-backdrop {
+    position: static;
+}
