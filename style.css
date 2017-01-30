@@ -6,6 +6,32 @@ li {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+    visibility: hidden;
+}
+
+h1:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+}
+h2:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+}
+
 #siteTitle{
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
