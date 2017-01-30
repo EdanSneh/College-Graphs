@@ -25,7 +25,7 @@ h1:before {
   visibility: hidden; 
 }
 h2:before { 
-  display: inline; 
+  display: block; 
   content: " "; 
   margin-top: -285px; 
   height: 285px; 
